@@ -1,4 +1,4 @@
-1. Create a startup script for an application called sleep­walking­server, which is provided below. 
+Create a startup script for an application called sleep­walking­server, which is provided below. 
 
 The script should be named sleep­walking and accept "start" and "stop" as arguments. 
 
