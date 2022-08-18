@@ -10,16 +10,4 @@ To stop sleep­walking­server, use this command: "kill $(cat /tmp/sleep­walkin
 
 Here is the contents of "sleep­walking­server". Be sure to put this file in /tmp and run chmod 755 /tmp/sleep­walking­server
 
-#!/bin/bash 
 
-PID_FILE="/tmp/sleep­walking­server.pid"
-
-trap "rm $PID_FILE; exit" SIGHUP SIGINT SIGTERM 
-
-echo "$$" > $PID_FILE
-
-while true 
-do
-
-   : 
-done
